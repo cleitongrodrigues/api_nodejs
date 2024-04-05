@@ -15,7 +15,7 @@ module.exports = {
 
             return response.status(200).json({
                 sucesso: true, 
-                mensagem: 'Lista de produtos.', 
+                mensagem: 'Rrodutos listados com sucesso!', 
                 dados: produtos[0],
                 nItens
                 
@@ -47,7 +47,7 @@ module.exports = {
                 const usu_id = execSql[0].insertId;
             return response.status(200).json({
                 sucesso: true, 
-                mensagem: 'Cadastro de produtos.', 
+                mensagem: 'Cadastro realizado com sucesso!.', 
                 dados: null
             });
         } catch (error) {
